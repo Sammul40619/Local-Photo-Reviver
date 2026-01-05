@@ -1,0 +1,12 @@
+# Placeholder for requirements
+fastapi
+uvicorn
+gfpgan
+basicsr
+numpy
+pillow
+torch
+torchvision
+torchaudio
+gradio
+pyinstaller

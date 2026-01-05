@@ -1,0 +1,30 @@
+name: photo-reviver
+channels:
+  - pytorch
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip
+  # Core AI / ML
+  - pytorch
+  - torchvision
+  - torchaudio
+  - cpuonly  # Remove this line if you have a CUDA-enabled GPU
+  
+  # Image processing
+  - numpy
+  - pillow
+  
+  # Backend API
+  - fastapi
+  - uvicorn
+  - python-multipart
+
+  # Pip dependencies can be added here
+  - pip:
+    - gfpgan
+    - basicsr
+    - gradio
+    - pyinstaller
+    # Add other pip packages here
